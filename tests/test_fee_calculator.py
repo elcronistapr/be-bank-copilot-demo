@@ -1,5 +1,5 @@
 import sys
-from fee_calculator import calculate_pix_fee
+from transacoes.fee_calculator import calculate_pix_fee
 import pytest
 
 def test_fee_up_to_1000():
