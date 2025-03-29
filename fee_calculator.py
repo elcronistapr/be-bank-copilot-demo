@@ -7,10 +7,10 @@ def calculate_pix_fee(transaction_amount: float) -> float:
     - Maximum fee of R$10 per transaction.
 
     Args:
-        transaction_amount (float): The PIX transaction amount.
-
+        transaction_amount (float): O valor da transação PIX.
+        
     Returns:
-        float: The fee to be charged.
+        float: A taxa a ser cobrada.
     """
     # Copilot will complete logic here
     fee = transaction_amount * 0.01
