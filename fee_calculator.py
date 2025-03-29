@@ -1,10 +1,10 @@
 def calculate_pix_fee(transaction_amount: float) -> float:
     """
-    Calculates the PIX transaction fee for Be Bank business accounts.
+    Calcula a taxa de transação PIX para contas PJ do Be Bank.
 
     Rules:
-    - 1% fee over the transaction amount.
-    - Maximum fee of R$10 per transaction.
+    - Taxa de 1% sobre o valor da transação.
+    - Taxa máxima de R$10 por transação.
 
     Args:
         transaction_amount (float): O valor da transação PIX.
